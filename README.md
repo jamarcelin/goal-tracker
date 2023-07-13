@@ -13,5 +13,5 @@ The Goal Tracker iOS app is designed to help users track their goals and progres
   
 ## Screenshots
 
-![Screenshot 1](screenshots/active1.png)
-![Screenshot 2](screenshots/active2.png)
+<img src="screenshots/active1.png" alt="Screenshot 1" width="300">
+<img src="screenshots/active2.png" alt="Screenshot 2" width="300">
