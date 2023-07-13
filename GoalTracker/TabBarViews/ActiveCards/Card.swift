@@ -50,7 +50,7 @@ struct Card: View {
                     Spacer()
                 }
                 HStack {
-                    ProgressCircle(progress: 84.0, color: Color.white, text: "14")
+                    ProgressCircle(progress: 100.0, color: Color.white, text: "2")
                         .padding(.horizontal)
                     Text("averaged daily")
                         .font(.title3)
@@ -65,7 +65,7 @@ struct Card: View {
             
             
             Spacer()
-            streakVisual(streak: 3)
+            streakVisual(streak: goal.streak)
         }
         .padding(25)
         .background(getGradient(gradientType: goal.gradientType, colors:[randomColor(), randomColor()]))

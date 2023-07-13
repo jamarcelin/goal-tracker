@@ -11,3 +11,7 @@ The Goal Tracker iOS app is designed to help users track their goals and progres
 - **Shared Cards**: Create shared cards with friends to set joint goals, track progress together, and provide mutual accountability.
 - **Progress Monitoring**: View and analyze goal progress through intuitive visualizations and statistics
   
+## Screenshots
+
+![Screenshot 1](screenshots/active1.png)
+![Screenshot 2](screenshots/active2.png)

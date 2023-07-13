@@ -23,17 +23,26 @@ struct ContentView: View {
                     Image(systemName: "house")
                     Text("Home")
                 }
+            
             Home()
                 .tabItem {
-                    Image(systemName: "list.clipboard.fill")
-                    Text("Home")
+                    Image(systemName: "list.bullet")
+                    Text("Goals")
                 }
+            
             Home()
                 .tabItem {
-                    Image(systemName: "house")
-                    Text("Home")
+                    Image(systemName: "chart.bar.fill")
+                    Text("Progress")
+                }
+            
+            Home()
+                .tabItem {
+                    Image(systemName: "person.circle.fill")
+                    Text("Profile")
                 }
         }
+
     }
 
     private func addItem() {

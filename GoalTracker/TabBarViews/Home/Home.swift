@@ -48,14 +48,20 @@ struct Home: View {
             .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
             .frame(height: 550)
             Button(action: stampToday) {
-                Text("Here")
+                Image(systemName: "checkmark.circle.fill")
+                    .font(.system(size: 24))
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(Color.blue)
+                    .clipShape(Circle())
+                    .shadow(radius: 5)
             }
             Spacer()
         }
     }
     func stampToday() -> Void {
         //goals[selectedIndex].lastAdded = Date()
-        goals[selectedIndex].streak += 1
+        goals[2].streak += 1
     }
 }
 
